@@ -1,4 +1,4 @@
-package com.bilgeadam.challenge.eratosthenes;
+package com.recepkabakci.challenge.eratosthenes;
 
 import java.util.Arrays;
 import java.util.stream.Stream;

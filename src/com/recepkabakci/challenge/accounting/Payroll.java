@@ -1,4 +1,4 @@
-package com.bilgeadam.challenge.accounting;
+package com.recepkabakci.challenge.accounting;
 
 public class Payroll extends Accounting {
 	private double salary;

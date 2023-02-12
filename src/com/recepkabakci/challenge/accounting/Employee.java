@@ -1,4 +1,4 @@
-package com.bilgeadam.challenge.accounting;
+package com.recepkabakci.challenge.accounting;
 
 public class Employee implements Comparable<Employee> {
 	private static int EMPLOYEE_NUMBER = 1;

@@ -1,5 +1,6 @@
 package com.bilgeadam.lesson029;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
@@ -7,19 +8,10 @@ import java.util.Locale;
 public class LocalDateAndTimes {
 
 	public static void main(String[] args) {
-
-		LocalDateTime dateTime = LocalDateTime.now();
-		System.out.println(dateTime);
-
-		String datePattern = "dd-MMMM-yy, EEEE";
-		String timePattern = "HH:mm.ss";
-		String fullPattern = "dd-MMMM-yyyy HH:mm.ss.SSS";
-
-		Locale.setDefault(Locale.ENGLISH);
-		DateTimeFormatter defaultFormatter = DateTimeFormatter.ofPattern(datePattern);
-		System.out.println(defaultFormatter.format(dateTime));
-
-		DateTimeFormatter trFormatter = DateTimeFormatter.ofPattern(datePattern, new Locale("tr"));
-		System.out.println(trFormatter.format(dateTime));
+		System.out.println(findDay(10,4,22));
 	}
+	public static String findDay(int month, int day, int year) {
+        LocalDate date = LocalDate.of(year,month,day);
+        return date.getDayOfWeek().toString();
+}
 }

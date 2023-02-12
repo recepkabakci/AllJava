@@ -15,20 +15,21 @@ public class HashExample {
 		hm.put(1, "Elma");
 		hm.put(2, "Armut");
 		hm.put(5, "Elma");
+		hm.put(5,"kiraz");
 		
-		Iterator valueIter = hm.values().iterator();
-		while (valueIter.hasNext()) {
-			String str = (String)valueIter.next();
-			System.out.println(str);
-		}
-		 
-		Iterator keyIter = hm.keySet().iterator();
-		while (keyIter.hasNext()) {
-			int str = (Integer)keyIter.next();
-			System.out.println(str);
-		}
+//		Iterator valueIter = hm.values().iterator();
+//		while (valueIter.hasNext()) {
+//			String str = (String)valueIter.next();
+//			System.out.println(str);
+//		}
+//		 
+//		Iterator keyIter = hm.keySet().iterator();
+//		while (keyIter.hasNext()) {
+//			int str = (Integer)keyIter.next();
+//			System.out.println(str);
+//		}
 		
-		System.out.println(hm.get(5));
+		System.out.println(hm.get(4));
 		
 		
 		Hashtable ht = new Hashtable();

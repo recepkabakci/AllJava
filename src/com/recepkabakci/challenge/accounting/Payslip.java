@@ -1,4 +1,4 @@
-package com.bilgeadam.challenge.accounting;
+package com.recepkabakci.challenge.accounting;
 
 public class Payslip extends Accounting {
 	private double hourlyRate;

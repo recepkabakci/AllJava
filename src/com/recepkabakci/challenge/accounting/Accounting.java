@@ -1,4 +1,4 @@
-package com.bilgeadam.challenge.accounting;
+package com.recepkabakci.challenge.accounting;
 
 public abstract class Accounting {
 	public static final boolean HOURLY_BASED = true;

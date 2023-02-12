@@ -1,4 +1,4 @@
-package com.bilgeadam.challenge.accounting;
+package com.recepkabakci.challenge.accounting;
 
 import java.util.ArrayList;
 import java.util.Collections;
