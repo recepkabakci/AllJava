@@ -2,7 +2,7 @@ package com.bilgeadam.lesson023;
 
 import java.util.LinkedList;
 
-import com.bilgeadam.lesson011.Person;
+import com.recepkabakci.practise.Person;
 
 public class OldFashionedCollection {
 

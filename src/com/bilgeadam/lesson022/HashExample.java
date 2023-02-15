@@ -5,7 +5,7 @@ import java.util.Hashtable;
 import java.util.Iterator;
 import java.util.Queue;
 
-import com.bilgeadam.lesson011.Person;
+import com.recepkabakci.practise.Person;
 
 public class HashExample {
 
