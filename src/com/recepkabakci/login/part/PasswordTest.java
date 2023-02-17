@@ -1,6 +1,6 @@
-package com.bilgeadam.lesson013.altpaket;
+package com.recepkabakci.login.part;
 
-import com.bilgeadam.lesson013.Password;
+import com.recepkabakci.login.Password;
 
 public class PasswordTest {
 

@@ -1,4 +1,4 @@
-package com.bilgeadam.lesson013.altpaket;
+package com.recepkabakci.login.part;
 
 public class Vehicle {
 	private String label;
