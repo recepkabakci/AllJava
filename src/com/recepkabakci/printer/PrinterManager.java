@@ -1,4 +1,4 @@
-package com.bilgeadam.lesson014;
+package com.recepkabakci.printer;
 
 import java.util.Scanner;
 
