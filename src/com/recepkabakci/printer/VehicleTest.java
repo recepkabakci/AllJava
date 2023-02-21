@@ -1,6 +1,6 @@
 package com.recepkabakci.printer;
 
-import com.bilgeadam.lesson017.Vehicle;
+import com.recepkabakci.vehicleoop.Vehicle;
 
 public class VehicleTest {
 
